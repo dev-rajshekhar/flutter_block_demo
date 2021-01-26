@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
     return MultiBlocProvider(
       providers: [
         BlocProvider<InternetCubit>(create: (context)=>InternetCubit(connectivity: connectivity)),
-        BlocProvider<CubitCounter>(create: (context)=>CubitCounter(internetCubit: BlocProvider.of<InternetCubit>(context))),
+        BlocProvider<CubitCounter>(create: (context)=>CubitCounter()),
       ],
       child: MaterialApp(
    onGenerateRoute: appRoute.onGenerateRoute,
