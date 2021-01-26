@@ -32,6 +32,7 @@ dependencies:
   test: ^1.15.7
   bloc_test: ^7.1.0
   equatable: ^1.2.5
+  connectivity: ^2.0.2
 
 dev_dependencies:
   flutter_test:
